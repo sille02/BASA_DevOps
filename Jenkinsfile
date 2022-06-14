@@ -5,6 +5,7 @@ podTemplate(containers: [containerTemplate(name: 'maven', image: 'maven', comman
       sh 'mvn -B -ntp -Dmaven.test.failure.ignore verify'
     }
     //teste004
+    //BNB teste devops
     junit '**/target/surefire-reports/TEST-*.xml'
   }
 }
