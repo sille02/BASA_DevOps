@@ -6,6 +6,7 @@ podTemplate(containers: [containerTemplate(name: 'maven', image: 'maven', comman
     }
     //teste004
     //BNB teste devops
+    //brb teste
     junit '**/target/surefire-reports/TEST-*.xml'
   }
 }
